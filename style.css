@@ -57,7 +57,7 @@ button:hover {
 .btn-greet {
     padding: 1em 0em 1em 0em;
     width: 8em;
-    background-color: #2196f3;
+    background-color: #4b8f8c;
     color: #fff;
     font-family: Exo;
     font-weight: bold;
@@ -73,6 +73,7 @@ button:hover {
     background-color: #4b8f8c;
     font-family: Exo;
     font-weight: bold;
+    color: #fff;
     border: 0;
     cursor: pointer;
     border-radius: 1.5em;
@@ -82,6 +83,7 @@ button:hover {
     padding: 1em 0em 1em 0em;
     width: 8em;
     background-color: #4b8f8c;
+    color: #fff;
     font-family: Exo;
     font-weight: bold;
     border: 0;
