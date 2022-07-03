@@ -1,0 +1,123 @@
+.message {
+    padding: 1em;
+    background-color: #06d6a0;
+    margin-bottom: 1em;
+}
+
+body {
+    background-color: #baf2bb;
+}
+.widget {
+    flex: 1;
+    
+    border: 1px solid #932f6d;
+    padding: 1em;
+    margin: 1em;
+    font-family: sans-serif;
+    background-color: #a7abdd;
+
+}
+
+h2,h3,h4,h5 {
+    font-family: monospace;
+    color: #4b8f8c;
+}
+.input > label {
+    display: inline-block;
+    width: 15em;
+    padding: 0.5em;
+    font-weight: bold;
+}
+
+.input > input[type="text"] {
+    padding: 0.5em;
+    margin: 0.5em;
+}
+@media only screen and (min-width:768px) {
+    .body {
+        align-items: center;
+    }
+
+    .widgets {
+        display: flex;
+    }
+}
+.currency-code {
+    font-family: Source Code Pro;
+    margin-left: -1em;
+    margin-inline: -0.5em;
+    color: #000;
+}
+
+button:hover {
+    background-color: #6AB8F7;
+    transition: 0.5s;
+}
+
+.btn-greet {
+    padding: 1em 0em 1em 0em;
+    width: 8em;
+    background-color: #2196f3;
+    color: #fff;
+    font-family: Exo;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+    border-radius: 1.5em;
+}
+
+.btn-greet img {
+    margin-right: 0.5em;
+    vertical-align: bottom;
+    margin-bottom: -0.1em;
+}
+
+.btn-fee {
+    padding: 1em 0em 1em 0em;
+    width: 6em;
+    background-color: #4b8f8c;
+    font-family: Exo;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+    border-radius: 1.5em;
+}
+
+.btn-airtime {
+    padding: 1em 0em 1em 0em;
+    width: 8em;
+    background-color: #4b8f8c;
+    font-family: Exo;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+    border-radius: 1.5em;
+}
+
+
+.btn-bill {
+    padding: 1em 0em 1em 0em;
+    width: 6em;
+    background-color: #4b8f8c;
+    color: #fff;
+    font-family: Exo;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+    border-radius: 1.5em;
+}
+.inputName>label {
+    display: inline-block;
+    width: 11.5em;
+    padding: 0.5em;
+}
+
+.inputName>input[type="text"] {
+    padding: 0.5em;
+    margin: 0.5em;
+    background-color: #fff;
+    font-family: Source Code Pro;
+    font-size: medium;
+    border: 0em;
+    border-radius: 0.5em;
+}
